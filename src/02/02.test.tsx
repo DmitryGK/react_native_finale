@@ -7,21 +7,21 @@ beforeEach(() => {
         title: 'New York',
         houses: [
             {
-                buildedAt: 2012, repaired: false,
+                buildedAt: 2012, repaired: false,id: 1,
                 address: {
                     number: 100, street: { title: 'White street' }
                 }
             },
             {
-                buildedAt: 2008, repaired: false,
+                buildedAt: 2008, repaired: false,id: 2,
                 address: {
                     number: 100, street: { title: 'Happy street' }
                 }
             },
             {
-                buildedAt: 2020, repaired: false,
+                buildedAt: 2020, repaired: false, id: 3,
                 address: {
-                    number: 100, street: { title: 'Happy street' }
+                    number: 101, street: { title: 'Happy street' }
                 }
             }
         ],
